@@ -1,0 +1,58 @@
+# Build artifacts
+bin/
+obj/
+out/
+publish/
+
+# Rider / Visual Studio / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Test and coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+logs/
+serilog*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local database/runtime files
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Local secrets and env files
+.env
+.env.*
+!.env.example
+secrets.json
+
+# App settings with sensitive values
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+
+# Node artifacts (if present in mixed repos)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
